@@ -1,6 +1,3 @@
-<?php
-require_once 'config.php';
-?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -10,7 +7,7 @@ require_once 'config.php';
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Medic Care-A vaccine booking website</title>
+        <title>Medic Care-About Us</title>
 
         <!-- CSS FILES -->        
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,25 +34,22 @@ require_once 'config.php';
 </style>
     </head>
     
+    
     <body id="top">
     
         <main>
 
-          <?Php
+          <?php
           require_once 'nav.inc.php';
-          ?>
-
-           <?Php
           require_once 'hero_sec.inc.php';
           ?>
-    
 
             <section class="section-padding" id="about">
                 <div class="container">
                     <div class="row">
 
                         <div class="col-lg-6 col-md-6 col-12">
-                            <h2 class="mb-lg-3 mb-3">Meet Dr. Zain</h2>
+                            <h2 class="mb-lg-3 mb-3">Meet Dr. Zaidan</h2>
 
                             <p>Protect yourself and others by wearing masks and washing hands frequently. Outdoor is safer than indoor for gatherings or holding events. People who get sick with Coronavirus disease (COVID-19) will experience mild to moderate symptoms and recover without special treatments.</p>
 
@@ -88,73 +82,7 @@ require_once 'config.php';
                 </div>
             </section>
 
-            <section class="section-padding pb-0" id="timeline">
-                <div class="container">
-                    <div class="row">
-
-                        <h2 class="text-center mb-lg-5 mb-4">Our Timeline</h2>
-                        
-                        <div class="timeline">
-                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                    <h3 class=" text-light">Get the vaccine</h3>
-                                    
-                                    <p>Be loyal to you and your family health. Book the appointment for vaccine now. <button class="btn btn-primary btn-outline-light mt-3">Book an Appointment For Vaccination</button></p>
-                                </div>
-
-                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                    <i class="bi-patch-check-fill timeline-icon"></i>
-                                </div>
-
-                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-07-31 Saturday</time>
-                                </div>
-                            </div>
-
-                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes my-lg-5 my-4">
-                                <div class="col-9 col-md-5 ms-md-4 ms-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                    <h3 class=" text-light">Covid-19 Hospitals</h3>
-
-                                    <p class="mb-0 pb-0">The time is now when it becomes the most previous time in a person’s life. These are people that you can trust, because caring about others is what makes them all so great.</p>
-                                    
-                                    <p>Providing facility of vaccination in different hospitals. For looking a hospital nearby you.   <button type="button" href="booking.html" class="mt-2 btn btn-primary btn-outline-light ">Hospitals</button></p>
-
-                                </div>
-
-                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                    <i class="bi-globe timeline-icon"></i>
-                                </div>
-
-                                <div class="col-9 col-md-5 pe-md-3 pe-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-05-30 Sunday</time>
-                                </div>
-                            </div>
-
-                            <div class="row g-0 justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                                <div class="col-9 col-md-5 me-md-4 me-lg-0 order-3 order-md-1 timeline-content bg-white shadow-lg">
-                                    <h3 class=" text-light">Certified Nurses</h3>
-
-                                    <p>Our facilities, and especially our amazing staff, gave you excellent care and made you about as comfortable as you could be! You find everyone friendly, kind and caring from the moment you will enter.</p>
-                                </div>
-
-                                <div class="col-3 col-sm-1 order-2 timeline-icons text-md-center">
-                                    <i class="bi-file-medical timeline-icon"></i>
-                                </div>
-
-                                <div class="col-9 col-md-5 ps-md-3 ps-lg-0 order-1 order-md-3 py-4 timeline-date">
-                                    <time>2021-06-28 Monday</time>
-                                </div>
-                            </div>
-
-                       
-
-                        
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
+           
             <section class="section-padding pb-0" id="reviews">
                 <div class="container">
                     <div class="row">
@@ -259,38 +187,37 @@ require_once 'config.php';
                 </div>
             </section>
 
-            <section class="section-padding" id="booking">
-                <div class="container">
-                    <div class="row">
-                    
-                        <div class="col-lg-8 col-12 mx-auto">
-                            <div class="booking-form">
-                                
-                                <h2 class="text-center mb-lg-3 mb-2">Book an appointment</h2>
-                            
-                                <form role="form" action="#booking" method="post">
-                                    <div class="row">
-                       
-
-
-                                        <div class="col-lg-3 col-md-4 col-6 mx-auto">
-                                           <a href='booking.php'> <button type="button" class="form-control" id="submit-button">Book Now</button></a>
-                                        </div>
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div>
-
+          
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <h3 class="mt-2">Vision</h3>
+                        <ul class="text-secondary">
+                            <li>To be a leading patient care services provider by giving them good treatments.</li>
+                            <li>To be a quality vaccine provider to all individuals.</li>
+                            <li>To bring the best in healthcare and become trustworthy among the society.</li>
+                          </ul>
                     </div>
                 </div>
-            </section>
+            </div>
+            <div class="container mb-4">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <h3 class="mt-2">Core Values</h3>
+                        <ul class="text-secondary">
+                            <li>Focus on quality, compassion, excellence in health care, research and career is fundamental to the ideology and practice of our organization.</li>
+                            <li>We pursue integrity, show respect, maintain professional development and support team work.</li>
 
+                          </ul>
+                    </div>
+                </div>
+            </div>
         </main>
-<?php
-require_once 'footer.inc.php';
-?>
-       
+
+
+        <?php
+   require_once 'footer.inc.php';
+   ?>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
